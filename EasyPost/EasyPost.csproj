@@ -8,26 +8,26 @@
     <Title>EasyPost</Title>
     <Description>EasyPost Shipping API Client Library for .NET https://easypost.com/docs</Description>
     <Version>3.0.0</Version>
+    <PackageProjectUrl>https://github.com/EasyPost/easypost-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EasyPost/easypost-csharp</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\lib</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\lib\netstandard2.0\EasyPost.XML</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyVersion>3.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
-    <PackageProjectUrl>https://github.com/EasyPost/easypost-csharp</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/EasyPost/easypost-csharp</RepositoryUrl>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="RestSharp" Version="106.10.1" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
   </ItemGroup>
 </Project>
