@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPost", "EasyPost\EasyPo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPostTest", "EasyPostTest\EasyPostTest.csproj", "{71AD44B9-6267-4897-91D6-544D7F5C7677}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyPost.NetStandard", "EasyPost.NetStandard\EasyPost.NetStandard.csproj", "{026ECBFE-A0D7-4E58-B86C-45D02D0793B1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{71AD44B9-6267-4897-91D6-544D7F5C7677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AD44B9-6267-4897-91D6-544D7F5C7677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71AD44B9-6267-4897-91D6-544D7F5C7677}.Release|Any CPU.Build.0 = Release|Any CPU
-		{026ECBFE-A0D7-4E58-B86C-45D02D0793B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{026ECBFE-A0D7-4E58-B86C-45D02D0793B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{026ECBFE-A0D7-4E58-B86C-45D02D0793B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{026ECBFE-A0D7-4E58-B86C-45D02D0793B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
